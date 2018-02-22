@@ -1,0 +1,87 @@
+.name_container{
+    width: 200px;
+    height: 50px;
+    background-color: teal;
+    margin-left: 6.3%;
+    position: fixed;
+    /* text format*/
+    text-align: center;
+    color: white;
+    float: left;
+    font-family: 'Abril Fatface', cursive;
+}
+.links{
+    float: right;
+    width: 270px;
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    position: relative;
+    top: 30px;
+}
+li{
+    display:inline;
+}
+
+.main_box{
+    background-color: lightgray;
+    width: 99%;
+    height: 660px;
+    margin: 5px;
+    position: relative;
+    top: 35px;
+}
+#about_Me{
+    background-color: white;
+    width: 650px;
+    height: 80%;
+    position:relative;
+    left: 83px;
+    top: 40px;
+    margin-right: 40px;
+    float:left;
+}
+#about_Me h1{
+    font-size: 30px;
+    font-family: 'Abril Fatface', cursive;
+    color: teal;
+}
+#about_Me img{
+    width: 180px;
+    height: 150px;
+    float: left;
+}
+#contact_box{
+    background-color: white;
+    width: 270px;
+    height: 25%;
+    float: right;
+    position: fixed;
+    float:right;
+    top: 100px;
+    right: 50px;
+    font-family: 'Abril Fatface', cursive;
+    color:teal;
+}
+#contact_box ul{
+    top:10px;
+    bottom:0;
+}
+
+#contact_box img{
+    width: 40px;
+    height: 40px;
+}
+
+footer{
+    text-align: center;
+    background-color: lightgray;
+    width: 99%;
+    height: 10%;    
+    margin: 5px;
+    position: fixed;
+    bottom: 2px;
+}
+.clearFloat{
+    clear: both;
+}
