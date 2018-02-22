@@ -1,3 +1,10 @@
+header{
+    background-color: #ffffff;
+    border-color: #cccccc;
+}
+body{
+    background-image: url ("../Basic_Portfolio/assets/images/dust_scratches.png");
+}
 .name_container{
     width: 200px;
     height: 50px;
@@ -8,10 +15,10 @@
     flex-direction: column;     /* stack flex items vertically */
     justify-content: center;    /* center items vertically*/
     align-items: center;        /* center items horizontally*/
-}
-.name_container p{
+    /* Text style*/
     color: white;
-    font-family: 'Abril Fatface', cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
 }
 
 .links{
@@ -25,10 +32,12 @@
 }
 li{
     display:inline;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .main_box{
-    background-color: lightgray;
+    background-color: #ffffff;
+    border-color: #dddddd;
     width: 99%;
     height: 660px;
     margin: 5px;
@@ -48,7 +57,7 @@ li{
 }
 #about_Me h1{
     font-size: 50px;
-    font-family: 'Abril Fatface', cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: teal;
 }
 .horizontalLine {
@@ -62,6 +71,7 @@ li{
 }
   #about_Me p{
     font-size: 25px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 #contact_box{
@@ -72,8 +82,10 @@ li{
     position: fixed;
     top: 100px;
     right: 50px;
-    font-family: 'Abril Fatface', cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color:teal;
+    font-size: 30px;
+    text-align: center;
     padding: 5px 5px 5px 5px;
 }
 #contact_box ul{
@@ -91,7 +103,7 @@ footer{
     flex-direction: column;     /* stack flex items vertically */
     justify-content: center;    /* center items vertically*/
     align-items: center;        /* center items horizontally*/
-    background-color: darkslategrey;
+    background-color: #666666;
     width: 99%;
     height: 10%;    
     margin: 5px;
