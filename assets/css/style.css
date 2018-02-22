@@ -2,14 +2,18 @@
     width: 200px;
     height: 50px;
     background-color: teal;
-    margin-left: 6.3%;
+    left: 6.3%;
     position: fixed;
-    /* text format*/
-    text-align: center;
+    display: flex;              /* establish flex container */
+    flex-direction: column;     /* stack flex items vertically */
+    justify-content: center;    /* center items vertically*/
+    align-items: center;        /* center items horizontally*/
+}
+.name_container p{
     color: white;
-    float: left;
     font-family: 'Abril Fatface', cursive;
 }
+
 .links{
     float: right;
     width: 270px;
@@ -36,51 +40,64 @@ li{
     width: 650px;
     height: 80%;
     position:relative;
-    left: 83px;
+    left: 6.3%;
     top: 40px;
     margin-right: 40px;
     float:left;
+    padding: 5px 5px 5px 5px;
 }
 #about_Me h1{
-    font-size: 30px;
+    font-size: 50px;
     font-family: 'Abril Fatface', cursive;
     color: teal;
 }
-#about_Me img{
+.horizontalLine {
+    border-bottom: thick solid lightslategray;
+  }
+  #about_Me img{
     width: 180px;
     height: 150px;
     float: left;
+    margin: 5px 5px 5px 5px;
 }
+  #about_Me p{
+    font-size: 25px;
+}
+
 #contact_box{
     background-color: white;
     width: 270px;
     height: 25%;
     float: right;
     position: fixed;
-    float:right;
     top: 100px;
     right: 50px;
     font-family: 'Abril Fatface', cursive;
     color:teal;
+    padding: 5px 5px 5px 5px;
 }
 #contact_box ul{
     top:10px;
     bottom:0;
 }
-
 #contact_box img{
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
+    padding: 100px 10px 0px 20px;
 }
 
 footer{
-    text-align: center;
-    background-color: lightgray;
+    display: flex;              /* establish flex container */
+    flex-direction: column;     /* stack flex items vertically */
+    justify-content: center;    /* center items vertically*/
+    align-items: center;        /* center items horizontally*/
+    background-color: darkslategrey;
     width: 99%;
     height: 10%;    
     margin: 5px;
     position: fixed;
     bottom: 2px;
+    color: white;
 }
 .clearFloat{
     clear: both;
