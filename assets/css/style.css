@@ -134,6 +134,7 @@ footer{
     top: 40px;
     float:left;
     padding: 5px 5px 5px 5px;
+    overflow: auto;
     }
 #Portfolio_container h1{
         font-size: 50px;
@@ -165,6 +166,7 @@ footer{
     left:10px;
     top: 10px;
     width: 200px;
+    clear: left;
 }
 #RPG{
     position: relative;
@@ -172,13 +174,15 @@ footer{
     right:10px;
     top: 10px;
     width: 200px;
+    clear: right;
 }
 #Trivia{
     position: relative;
     float: left;
     left:10px;
-    top: 200px;
+    top: 10px;
     width: 200px;
+    clear: left;
 }
 #Rutgers{
     position: relative;
@@ -186,6 +190,7 @@ footer{
     right:10px;
     top: 10px;
     width: 200px;
+    clear: right;
 }
 #Rock_Paper_Scissors{
     position: relative;
@@ -193,6 +198,7 @@ footer{
     left:10px;
     top: 10px;
     width: 200px;
+    clear: left;
 }
 img{
     width: 200px;
