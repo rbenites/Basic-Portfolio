@@ -2,7 +2,7 @@
 
 body{
     background-color: slateblue;
-    background-image: image("../Basic_Portfolio/assets/images/dust_scratches.png");
+    background-image: url ("/Basic-Portfolio/assets/images/dust_scratches.png");
 }
 header{
     background-color: #ffffff;
@@ -205,5 +205,45 @@ img{
     height: 200px;
 }
 
-
 /*Contact Specific Styles*/
+#contact{
+    background-color: #ffffff;
+    border-color: #dddddd;
+    width: 650px;
+    height: 600px;
+    position:relative;
+    left: 6.3%;
+    top: 40px;
+    margin-right: 40px;
+    float:left;
+    padding: 5px 5px 5px 5px;
+}
+#contact h1{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: teal;
+}
+
+#contact input[type=text]{
+    width: 95%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit]{
+    width: 100px;
+    height: 50px;
+    background-color: teal;
+    color:#ffffff;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: #45a049;
+}
+
+input#message{
+    height: 250px;
+}

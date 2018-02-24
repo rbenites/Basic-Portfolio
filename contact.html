@@ -9,40 +9,65 @@
     <link rel="stylesheet" type="text/css" media="screen" href="../Basic-Portfolio/assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="../Basic-Portfolio/assets/css/style.css" />
 </head>
-<header>
-    <div class="name_container">
-        <p> Roberto Benites</p>
-    </div>
-    <div class="links">
-        <ul>
-            <li>About</li>
-            <li>Portfolio</li>
-            <li>Contact</li>
-        </ul>
-    </div>
-</header>
-
 <body>
-    <div class="main_box">
+        <header>
+            <div class="name_container">
+                <p>
+                    <strong>Roberto Benites</strong>
+                </p>
+            </div>
+            <nav class="links">
+                <ul>
+                    <li>
+                        <a href="index.html">About |</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">Portfolio |</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact |</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="main_box  clearFloat">
         <div id="contact">
             <h1>Contact</h1>
-            <hr/>
+            <div class="horizontalLine"></div>
             <!--FORM box should go here-->
-
+            <form>
+                Name:
+                <br>
+                <input type="text" id="full_name" name="name" placeholder="John Smith">
+                <br> Email:
+                <br>
+                <input type="text" id="email" name="email" placeholder="example@gmail.com">
+                <br> Message:
+                <br>
+                <input type="text" id="message" name="message">
+                <br>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
         </div>
         <div id="contact_box">
             <h3>Connect with Me</h3>
+            <div class="horizontalLine"></div>
             <ul>
-                <li>Git</li>
-                <li>link</li>
-                <li>Slack</li>
+                <li>
+                    <img src="../Basic-Portfolio/assets/images/github.png" alt="Github">
+                </li>
+                <li>
+                    <img src="../Basic-Portfolio/assets/images/Linked_in.png" alt="Linked in">
+                </li>
+                <li>
+                    <img src="../Basic-Portfolio/assets/images/stackoverflow.png" alt="Slack">
+                </li>
             </ul>
 
         </div>
-        <footer class="copyright">
-                <p>Copyright 2018 Roberto Benites</p>
-        </footer>
     </div>
+    <footer class="copyright clearFloat">Copyright &copy;2018 Roberto Benites</footer>
 </body>
 
 
