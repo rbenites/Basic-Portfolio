@@ -1,12 +1,13 @@
 /* Global Style information*/
 
 body{
-    background-color: slateblue;
-    background-image: url ("/Basic-Portfolio/assets/images/dust_scratches.png");
+    background-image: url("../images/dust_scratches.png");
 }
 header{
     background-color: #ffffff;
     border-color: #cccccc;
+    height: 55px;
+    /*need to see why the bottom border wont show up*/
 }
 .name_container{
     width: 200px;
@@ -42,7 +43,6 @@ li{
     background-color: transparent;
     width: 960px;
     height: 660px;
-    margin: 5px;
     position: relative;
     top: 35px;
 }
@@ -53,7 +53,7 @@ li{
     height: 600px;
     position:relative;
     left: 6.3%;
-    top: 40px;
+    top: 10px;
     margin-right: 40px;
     float:left;
     padding: 5px 5px 5px 5px;
@@ -232,6 +232,7 @@ img{
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    /*need to figure out how to adjust the are that test gets inputed into for the message section*/
 }
 input[type=submit]{
     width: 100px;
